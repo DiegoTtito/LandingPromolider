@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap');
+
+/* Configuración general */
+body {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background:
+            linear-gradient(180deg, rgba(31, 31, 31, 0.7) 0%, rgba(31, 31, 31, 0.7) 100%),
+            url('../img/equipo-negocios-lleno-alegria-feliz-celebrar-victoria-corporativa_93675-126169.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estilos generales */
+.text-highlight {
+    color: #1BE700;
+}
+
+.btn-primary-custom {
+    background-color: #1BE700;
+    color: #1F2937;
+    font-size: 12px;
+    border-radius: 50px;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-primary-custom:hover {
+    background-color: #14A600;
+}
+
+/* Encabezado */
+.header {
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.header h1 {
+    font-weight: bold;
+}
+
+.header .text-line {
+    display: block;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+}
+
+/* Video */
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.video-responsive {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Sección 2 */
+.benefits-section {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+    color: black;
+}
+
+.benefits-section h2 {
+    color: black;
+}
+
+.benefits-section .highlight-box {
+    background-color: #111827;
+    color: #1BE700;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.benefit-item {
+    background: #111827;
+    color: white;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.benefit-item i {
+    font-size: 24px;
+    color: #1BE700;
+}
+
+.benefit-title {
+    font-weight: bold;
+}
+
+.benefit-text {
+    color: #D1D5DB;
+}
+
+/* Sección Características */
+/* --- Estilos Generales de la Sección Características --- */
+.features-section {
+    background-color: #2B3749; 
+    color: #fff; 
+    padding: 80px 20px; 
+    text-align: center; 
+}
+
+/* --- Título de la Sección --- */
+.features-section h2 {
+    font-weight: bold;
+    font-size: 2.5rem; 
+    margin-bottom: 40px; 
+}
+
+/* --- Texto Resaltado (PROMOLIDER) en el título --- */
+.text-highlight {
+    color: #1BE700; 
+}
+
+/* --- Estilos para las Tarjetas de Beneficio --- */
+.feature-card {
+    background-color: #1F2937; 
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    height: 100%; 
+    padding: 30px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    transition: transform 0.3s ease; 
+}
+
+.feature-card:hover {
+    transform: translateY(-5px); 
+}
+
+.features-section .row.g-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; 
+    justify-content: center;
+}
+
+
+.features-section .row.g-3 > [class*="col-"] {
+    display: flex;
+}
+
+
+.feature-card {
+    flex-grow: 1; 
+}
+
+
+/* --- Iconos dentro de las tarjetas --- */
+.feature-card .fa-solid {
+    color: #1BE700; 
+    font-size: 3rem; 
+    margin-bottom: 15px; 
+}
+
+/* --- Títulos y Párrafos dentro de las tarjetas --- */
+.feature-card h5 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25rem; 
+    margin-bottom: 10px;
+}
+
+.feature-card p.small-text {
+    color: #ddd; 
+    font-size: 0.95rem; 
+    line-height: 1.5;
+}
+
+
+.text-highlight-alt {
+    color: #d4d4d4; 
+    font-size: 1.6rem; 
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.4;
+    padding: 20px; 
+}
+
+/* --- Estilos para la imagen principal (Hombre de negocios) --- */
+.features-section img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; 
+}
+
+/* --- Estilos para el Botón --- */
+.btn-primary-custom {
+    background-color: #1BE700; 
+    color: #000; 
+    font-weight: bold;
+    border: none;
+    border-radius: 50px; 
+    padding: 15px 40px; 
+    text-decoration: none; 
+    font-size: 1.1rem;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #15b300; 
+    transform: translateY(-2px); 
+    color: #000; 
+}
+
+/* --- Media Queries (Responsividad) --- */
+
+/* Para pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .feature-card {
+        padding: 20px; 
+    }
+    .feature-card h5 {
+        font-size: 1.1rem;
+    }
+    .feature-card p.small-text {
+        font-size: 0.9rem;
+    }
+}
+
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 767.98px) {
+    .features-section h2 {
+        font-size: 1.8rem; 
+    }
+    .features-section {
+        padding: 60px 15px; 
+    }
+    .feature-card {
+        height: auto; 
+        padding: 25px; 
+    }
+    .feature-card .fa-solid {
+        font-size: 2.5rem; 
+    }
+    .feature-card h5 {
+        font-size: 1.1rem;
+    }
+    .feature-card p.small-text {
+        font-size: 0.9rem;
+    }
+    .btn-primary-custom {
+        padding: 12px 25px; 
+        font-size: 1rem;
+    }
+}
+
+/* Sección 3 */
+.distributor-section {
+    background-color: #2B3749; 
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-blur-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/map.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.distributor-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.distributor-section .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.distributor-section .section-subtitle {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.distributor-section .text-green {
+    color: #1BE700;
+}
+
+/* Estilos de las tarjetas de distribuidor */
+.card-distributor {
+    background-color: rgba(31, 41, 55, 0.7); 
+    border: 2px solid #1BE700;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.card-distributor:hover {
+    transform: translateY(-5px); /* Efecto de elevación */
+}
+
+.card-distributor .fa-solid, .card-distributor .fas {
+    color: #1BE700;
+}
+
+.card-distributor .card-body p {
+    font-size: 1.1rem;
+}
+
+/* Estilo del texto enmarcado */
+.framed-text-container {
+    background-color: #1F2937;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.framed-text-container p {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+/* Estilos para el botón final */
+.btn-primary-custom {
+    background-color: #1BE700;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #15b300;
+    transform: translateY(-2px);
+    color: #000;
+}
+
+/* Sección Marketing */
+/* --- Sección de Marketing (LeadBoost) --- */
+.marketing-section {
+    background-color: #2B3749;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.marketing-section .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1BE700;
+}
+
+.marketing-section .section-subtitle {
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.marketing-section .section-title-app {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1BE700;
+}
+
+.marketing-section .section-description {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.marketing-section .app-image {
+    max-width: 350px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+.marketing-card {
+    background-color: #1F2937;
+    border: 2px solid #1BE700;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    height: 100%;
+}
+
+.marketing-card p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.marketing-card .feature-icon {
+    color: #1BE700;
+}
+
+.marketing-section .text-small {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+/* Estilos para el botón */
+.btn-primary-custom {
+    background-color: #1BE700;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #15b300;
+    transform: translateY(-2px);
+    color: #000;
+}
+
+/* --- Sección de Ganar Dinero --- */
+.ganar-dinero-section {
+    background-color: #0d1626;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.ganar-dinero-section .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1BE700;
+}
+
+.ganar-dinero-section .section-subtitle {
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.ganar-dinero-section .ganas-por {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.ganar-dinero-card {
+    background-color: #1F2937;
+    border: 1px solid #1BE700;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.ganar-dinero-card p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.ganar-dinero-card .feature-icon {
+    color: #1BE700;
+}
+
+.ganar-dinero-section .text-small {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+/* Estilos para el botón */
+.btn-primary-custom {
+    background-color: #1BE700;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #15b300;
+    transform: translateY(-2px);
+    color: #000;
+}
+
+/* Sección de Copyright */
+/* --- Sección Final (Llamada a la acción) --- */
+.final-section {
+    background-color: #242b36;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-image: url('../img/equipo-negocios-lleno-alegria-feliz-celebrar-victoria-corporativa_93675-126169.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Pseudo-elemento para la capa de superposición, ahora más oscuro */
+.final-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Opacidad aumentada a 0.8 */
+    z-index: 1;
+}
+
+/* El contenedor del texto y el botón debe estar por encima de la capa */
+.final-section > .container {
+    position: relative;
+    z-index: 2;
+}
+
+.final-section .section-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.final-section .text-highlight {
+    color: #1BE700;
+}
+
+.final-section .section-subtitle {
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Estilos para el botón final */
+.btn-final {
+    background-color: #1BE700;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(27, 231, 0, 0.4);
+}
+
+.btn-final:hover {
+    background-color: #15b300;
+    transform: translateY(-2px);
+    color: #000;
+    box-shadow: 0 8px 20px rgba(27, 231, 0, 0.6);
+}
+
+/* Estilo para el hover del título */
+.final-section .section-title:hover {
+    color: #1BE700;
+    transition: color 0.3s ease;
+}
+
+/* Sección de Copyright */
+.footer-copyright {
+    background-color: #111827;
+    padding: 20px 0;
+    text-align: center;
+    color: #9CA3AF;
+}
+
+.footer-copyright a {
+    color: #1BE700;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-copyright a:hover {
+    color: #14A600;
+}
+
